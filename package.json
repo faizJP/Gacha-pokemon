@@ -1,17 +1,11 @@
 {
   "name": "gacha-pokemon",
   "version": "1.0.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
   "dependencies": {
-    "next": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "author": "Faiz",
-  "license": "MIT"
+    "express": "^5.2.1"
+  }
 }
